@@ -35,7 +35,8 @@ int main(){
     int e(*(r+3));
 
     double f = 0;
-    for (int g = 0; g < 5; g++)
+    int g;
+    for (g = 0; g < 5; g++)
         f += A[g] / 5;
     
     std::cout << "a = " << a << std::endl;
