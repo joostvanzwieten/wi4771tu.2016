@@ -15,5 +15,7 @@ add_subdirectory(04-passing-arguments)
 add_subdirectory(05-namespaces)
 
 # Homework
+add_subdirectory(H01-swap)
+add_subdirectory(H02-arrays)
 
 # Assignment
