@@ -13,6 +13,9 @@ add_subdirectory(02-variables-constants)
 add_subdirectory(03-pointers)
 add_subdirectory(04-passing-arguments)
 add_subdirectory(05-namespaces)
+add_subdirectory(06-dot-product)
+add_subdirectory(07-dot-product-struct)
+add_subdirectory(08-dot-product-struct2)
 
 # Homework
 add_subdirectory(H01-swap)
