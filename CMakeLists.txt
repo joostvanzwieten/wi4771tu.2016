@@ -20,5 +20,6 @@ add_subdirectory(08-dot-product-struct2)
 # Homework
 add_subdirectory(H01-swap)
 add_subdirectory(H02-arrays)
+add_subdirectory(H04-points-triangles)
 
 # Assignment
