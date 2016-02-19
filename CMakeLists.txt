@@ -1,5 +1,5 @@
-# Force CMake version 2.6 or above
-cmake_minimum_required (VERSION 2.6)
+# Force CMake version 3.1 or above
+cmake_minimum_required (VERSION 3.1)
 
 # This project has the name: wi4771tu.2016
 project (wi4771tu.2016)

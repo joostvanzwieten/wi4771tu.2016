@@ -1,5 +1,5 @@
-# Force CMake version 2.6 or above
-cmake_minimum_required (VERSION 2.6)
+# Force CMake version 3.1 or above
+cmake_minimum_required (VERSION 3.1)
 
 # This project has the name: 07-dot-product-struct
 project (07-dot-product-struct)
