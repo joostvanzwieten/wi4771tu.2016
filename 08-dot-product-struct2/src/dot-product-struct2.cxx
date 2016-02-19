@@ -8,11 +8,22 @@
  *
  */
 
+// Support for precompiled header files (only under MS Visual Studio)
+#ifdef _MSC_VER
+#include "stdafx.h"
+#endif
+
 // Include header file for standard input/output stream library
 #include <iostream>
 
 // Include header file for standard exception handling
 #include <exception>
+
+// Include header file for initializer list
+#include <initializer_list>
+
+// Include header file for memory
+#include <memory>
 
 // Structure encapsulating array and its lengths
 struct Vector
