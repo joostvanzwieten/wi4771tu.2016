@@ -1,13 +1,13 @@
 Homework 4
 ==========
 
-In this homework assignment you are going to create `Point` class, which
+In this homework assignment you are going to create a `Point` class, which
 represents a point in a two-dimensional space, and a `Triangle` class, which is
 represented by three `Point`s.  Both classes should support translation and
 rotation and the `Triangle` class should be able to compute its area.
 
-In the following description and code examples all possible occurences of the
-keyword `const` are omitted, as areall possible occurences of reference
+In the following description and code examples all possible occurrences of the
+keyword `const` are omitted, as are all possible occurrences of reference
 arguments, marked with an `&`.  It is your task to mark relevant functions,
 arguments and return values as `const` and to pass relevant arguments by
 reference.  Please comment briefly — in general, not per function — why you
@@ -16,7 +16,7 @@ file [src/points-triangles.cxx].
 
 After each step, e.g. you have implemented a new operator in the `Point` class,
 test your implementation by writing one or more tests in the function `main`.
-This is part of the assignent.  Make sure that all relevant parts of your code
+This is part of the assignment.  Make sure that all relevant parts of your code
 are tested.  You may use assertions, but remember that comparing floating
 point numbers might be difficult due to rounding errors.  The `distance`
 function of the `Point` class, see below, might come in handy.
@@ -206,7 +206,7 @@ outline of the `Triangle` class is as follows:
     Remember to return `*this`;
 
 5.  Create a function `rotated` that returns a new `Triangle` with all
-    attributes rotated by argument `angle.  If a second argument of class
+    attributes rotated by argument `angle`.  If a second argument of class
     `Point` is given, then this defines the point of rotation.  The functions
     have the following outline:
 
@@ -235,7 +235,7 @@ outline of the `Triangle` class is as follows:
             ...
         };
 
-    Remember to return `*this`;
+    Remember to return `*this`.
 
     This allows you to chain in-place translation and rotation functions, e.g.
 
