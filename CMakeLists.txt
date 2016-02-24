@@ -16,6 +16,8 @@ add_subdirectory(05-namespaces)
 add_subdirectory(06-dot-product)
 add_subdirectory(07-dot-product-struct)
 add_subdirectory(08-dot-product-struct2)
+add_subdirectory(09-copy-move)
+add_subdirectory(10-integration)
 
 # Homework
 add_subdirectory(H01-swap)
