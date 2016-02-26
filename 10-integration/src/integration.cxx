@@ -16,6 +16,9 @@
 // Include header file for standard input/output stream library
 #include <iostream>
 
+// Include header file to enable use of std::function
+#include <functional>
+
 // Abstract class Quadrature which cannot be instanciated 
 class Quadrature
 {
