@@ -6,6 +6,7 @@ compute approximate derivatives of functions of one variable using [finite
 difference] schemes.
 
 In this assignment you have to create the source and cmake files yourself.
+Include at least header file `functional` in your source file.
 
 1.  Create a 'base' class `Derivative` with the following pure virtual method
 
