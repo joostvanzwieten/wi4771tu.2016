@@ -18,6 +18,8 @@ add_subdirectory(07-dot-product-struct)
 add_subdirectory(08-dot-product-struct2)
 add_subdirectory(09-copy-move)
 add_subdirectory(10-integration)
+add_subdirectory(11-polymorphism)
+add_subdirectory(12-auto-decltype)
 
 # Homework
 add_subdirectory(H01-swap)
