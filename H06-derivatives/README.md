@@ -26,8 +26,16 @@ Include at least header file `functional` in your source file.
 
     Create a class `CentralDifference`, deriving from `Derivative`, that
     implements a `differentiate` function based on the central difference
-    scheme.  It is not necessary to add constructors here, as the constructors
-    of the base class are inherited.
+    scheme.  You can inherit the constructors from the base class by adding
+    `using Derivative::Derivative;` to the derived class, e.g.
+
+        class CentralDifference: public Derivative
+        {
+        public:
+            using Derivative::Derivative;
+
+            ...
+        };
 
 3.  For a given spacing `h` the following pseudocode computes an approximation
     to the derivative of `func` at `x` using the forward difference scheme
@@ -37,8 +45,8 @@ Include at least header file `functional` in your source file.
 
     Create a class `ForwardDifference`, deriving from `Derivative`, that
     implements a `differentiate` function based on the forward difference
-    scheme.  It is not necessary to add constructors here, as the constructors
-    of the base class are inherited.
+    scheme.  Inherit the constructors from the base class by adding `using
+    Derivative::Derivative;` to the derived class.
 
 4.  Write a function `main()` that tests your implementation of the central and
     forward difference schemes for (at least) two different functions
