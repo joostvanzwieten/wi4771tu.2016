@@ -20,6 +20,8 @@ The list of homework assignments per session:
 
 3.  [H05-copy-move] and [H06-derivatives].
 
+4.  [H07-templates].
+
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2016.git
 [H01-swap]: H01-swap/
 [H02-arrays]: H02-arrays/
@@ -27,3 +29,4 @@ The list of homework assignments per session:
 [H04-points-triangles]: H04-points-triangles/
 [H05-copy-move]: H05-copy-move/
 [H06-derivatives]: H06-derivatives/
+[H07-templates]: H07-templates/
