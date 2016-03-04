@@ -53,15 +53,18 @@ all the exercises.
 
         Number<int>(2) * Number<double>(1.2)
 
-    should return a `Number<double>` with `value` equal to `2.2`.
+    should return a `Number<double>` with `value` equal to `2.4`.  To prevent
+    possible issues with deducing the return type of these operators, place the
+    definition of the operators *below* the definition of the `value`
+    attribute.
 
 5.  Create a [Fibonacci number] generator with templates but without functions
-    in the following way.  Create a struct template `fibonacci` with one `int`
-    template parameter.  The struct should have a `static const int value`
-    attribute holding the [Fibonacci number] at the position specified by the
-    template parameter.  The `value` attribute of the `fibonacci` struct can be
-    accessed — without creating an instance of the struct — by
-    `fibonacci::value`.
+    in the following way.  Create a struct template `fibonacci` with one
+    template parameter `int n`.  The struct should have a `static const int
+    value` attribute holding the `n`-th [Fibonacci number].  The `value`
+    attribute of the `m`-th `fibonacci` struct can be accessed — without
+    creating an instance of the struct — by `fibonacci<m>::value`, where `m` is
+    an integer that is known at compile time.
 
     Hint: use template specialisation to specify the first two Fibonacci
     numbers.
