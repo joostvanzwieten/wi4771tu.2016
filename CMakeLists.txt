@@ -20,6 +20,12 @@ add_subdirectory(09-copy-move)
 add_subdirectory(10-integration)
 add_subdirectory(11-polymorphism)
 add_subdirectory(12-auto-decltype)
+add_subdirectory(13-templates)
+add_subdirectory(14-templates-partial-specialisation)
+add_subdirectory(15-traits)
+add_subdirectory(16-templates-sfinae)
+add_subdirectory(17-templates-sfinae2)
+add_subdirectory(18-complex-conjugate)
 
 # Homework
 add_subdirectory(H01-swap)
