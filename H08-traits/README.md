@@ -8,7 +8,7 @@ function `main` that tests all the exercises.
 
 1.  Enumerations in C++ are an elegant way to group values
 
-        enum class Unit { km, m, cm};
+        enum class Unit { km, m, cm };
 
     It is possible to create instances thereof like
 
