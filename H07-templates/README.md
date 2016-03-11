@@ -66,11 +66,11 @@ all the exercises.
     creating an instance of the struct — by `fibonacci<m>::value`, where `m` is
     an integer that is known at compile time.
 
-    Hint: use template specialisation to specify the first two Fibonacci
+    **Hint:** use template specialisation to specify the first two Fibonacci
     numbers.
 
-    Hint: The following example shows a struct with a static attribute `value`
-    *without* templates:
+    **Hint:** The following example shows a struct with a static
+    *attribute `value` without* templates:
 
         struct example
         {
