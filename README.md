@@ -22,6 +22,14 @@ The list of homework assignments per session:
 
 4.  [H07-templates].
 
+5.  [H08-unit-converter] and [H09-symbolic-differentiation].
+
+Final project
+-------------
+
+Preliminary information and remarks about the [Final project].
+
+
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2016.git
 [H01-swap]: H01-swap/
 [H02-arrays]: H02-arrays/
@@ -32,3 +40,5 @@ The list of homework assignments per session:
 [H07-templates]: H07-templates/
 [H08-unit-converter]: H08-unit-converter/
 [H09-symbolic-differentiation]: H09-symbolic-differentiation/
+
+[Final project]: Final-project/
