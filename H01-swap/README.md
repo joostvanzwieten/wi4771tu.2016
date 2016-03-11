@@ -1,5 +1,5 @@
-Homework 1
-==========
+Homework 1: Swap
+================
 
 Write a C++ program starting from the code template
 [src/swap.cxx](src/swap.cxx) that does the following tasks:

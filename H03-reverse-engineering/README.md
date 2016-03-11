@@ -1,5 +1,5 @@
-Homework 3
-==========
+Homework 3: Reverse engineering
+===============================
 
 Consider the C++ program
 [src/reverse-engineering.cxx](src/reverse-engineering.cxx):

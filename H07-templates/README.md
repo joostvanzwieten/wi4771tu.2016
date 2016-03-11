@@ -1,5 +1,5 @@
-Homework 7
-==========
+Homework 7: Templates
+=====================
 
 In this homework assignment you are going to work with function and class
 templates.  What follows is a list of unrelated exercises in increasing

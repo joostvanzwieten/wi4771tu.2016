@@ -1,5 +1,5 @@
-Homework 4
-==========
+Homework 4: Points & Triangles
+==============================
 
 In this homework assignment you are going to create a `Point` class, which
 represents a point in a two-dimensional space, and a `Triangle` class, which is

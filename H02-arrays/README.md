@@ -1,5 +1,5 @@
-Homework 2
-==========
+Homework 2: Array
+=================
 
 Write a C++ program starting from the code template
 [src/arrays.cxx](src/arrays.cxx) that does the following tasks:

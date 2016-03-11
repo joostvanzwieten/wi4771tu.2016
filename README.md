@@ -30,3 +30,5 @@ The list of homework assignments per session:
 [H05-copy-move]: H05-copy-move/
 [H06-derivatives]: H06-derivatives/
 [H07-templates]: H07-templates/
+[H08-unit-converter]: H08-unit-converter/
+[H09-symbolic-differentiation]: H09-symbolic-differentiation/

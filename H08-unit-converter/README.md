@@ -1,5 +1,5 @@
-Homework 8
-==========
+Homework 8: Unit-converter
+==========================
 
 In this homework assignment you are going to work with traits to
 realise a unit conversion system for length (km, m, cm) at compile

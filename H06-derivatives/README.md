@@ -1,5 +1,5 @@
-Homework 6
-==========
+Homework 6: Derivatives
+=======================
 
 In this homework assignment you are going to write classes that are able to
 compute approximate derivatives of functions of one variable using [finite
