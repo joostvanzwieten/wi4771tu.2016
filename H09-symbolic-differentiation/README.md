@@ -68,5 +68,21 @@ This function type can be used as follows:
 5.  Create function types `Sin` and `Cos` that represent the sine and cosine
     functions, respectively.
 
+    A C++ compiler reads a file line by line from top to bottom.  You may use a
+    class or function only if it has been declared earlier, i.e. above, perhaps
+    in an `#include` directive.  If two classes refer to each other you need to
+    'forward declare' the class that has not been declared yet.  In this
+    particular case the following should be sufficient:
+
+        class Cos; // forward declaration
+        class Sin
+        {
+            ...
+        };
+        class Cos
+        {
+            ...
+        };
+
 6.  Create a function `main` that tests all function types and their
     derivatives.
