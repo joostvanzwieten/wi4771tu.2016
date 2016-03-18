@@ -24,6 +24,8 @@ The list of homework assignments per session:
 
 5.  [H08-unit-converter] and [H09-symbolic-differentiation].
 
+6.  [H10-add-vectors].
+
 Final project
 -------------
 
@@ -40,5 +42,6 @@ Preliminary information and remarks about the [Final project].
 [H07-templates]: H07-templates/
 [H08-unit-converter]: H08-unit-converter/
 [H09-symbolic-differentiation]: H09-symbolic-differentiation/
+[H10-add-vectors]: H10-add-vectors/
 
 [Final project]: Final-project/
