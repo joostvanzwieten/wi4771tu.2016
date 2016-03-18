@@ -16,6 +16,9 @@
 // Include header file for standard input/output stream library
 #include <iostream>
 
+// Inlcude header file for type traits
+#include <type_traits>
+
 /**
  * Demo for fixed return type double
  */

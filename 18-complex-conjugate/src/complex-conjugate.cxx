@@ -62,8 +62,6 @@ int main(){
     std::cout << f << std::endl;
     std::cout << conj(f) << std::endl;
     std::cout << std::conj(f) << std::endl;
-
-    
     
     // Return code 0 to the operating system (=no error)
     return 0;
