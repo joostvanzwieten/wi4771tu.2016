@@ -28,3 +28,10 @@ it is necessary to satisfy the following minimal requirements:
 think about a possible problem that you want to solve as final project
 and briefly describe it on not more than one A4 paper (only the
 problem not its implementation).
+
+Heat equation
+-------------
+
+Alternative project: [heat equation]
+
+[heat equation]: heat-equation.md
